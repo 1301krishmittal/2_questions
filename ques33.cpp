@@ -56,6 +56,7 @@ int solution(int **A,int N,int M){
         }
     }
     }
+    return count;
 }
 
 int main(){
