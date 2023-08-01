@@ -47,7 +47,7 @@ int solution(int **A,int N,int M){
                         A[i][j-1]++;
                         count++;
                     }
-                    else (j == 0){
+                    else if(j == 0){
                         A[i][j+1]++;
                         count++;
                     }
